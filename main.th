@@ -1,0 +1,23 @@
+encoding  utf-8
+survey main  -title "Marina pećina, Montenegro"
+
+input "marina.th"
+
+#input "surveys/nasdem.th"
+
+input marina.th2
+
+map map
+ scrap56
+endmap
+
+input marina_ext.th2
+
+map map_ext
+ scrap1
+ break
+ scrap19
+endmap
+
+endsurvey
+
